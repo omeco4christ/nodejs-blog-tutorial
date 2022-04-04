@@ -1,3 +1,4 @@
+const path = require('path');
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
@@ -10,7 +11,7 @@ app.use(express.static('public'));
 // mongoose.connect( mongoAtlasUri, {useNewUrlParser: true, useUnifiedTopology: true})
 
 app.get('/', (req, res) => {
-  res.send('Hello World!!!!')
+  res.sendFile(path.resolve(__dirname, 'pages/index.html'));
 })
 
 app.listen(port, () => {
