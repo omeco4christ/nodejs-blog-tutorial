@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-blog-tutorial",
+  "version": "1.0.0",
+  "description": "this is a node.js blog tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omeco4christ/nodejs-blog-tutorial.git"
+  },
+  "keywords": [
+    "Node.js",
+    "blog",
+    "tutorial"
+  ],
+  "author": "ome chukwuemeka ogodo",
+  "license": "ISC",
+  "engines": {
+    "node": "16.14.0"
+  },
+  "bugs": {
+    "url": "https://github.com/omeco4christ/nodejs-blog-tutorial/issues"
+  },
+  "homepage": "https://github.com/omeco4christ/nodejs-blog-tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
