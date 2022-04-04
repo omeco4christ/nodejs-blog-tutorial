@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/omeco4christ/nodejs-blog-tutorial#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "startbootstrap-clean-blog": "^6.0.8"
   }
 }

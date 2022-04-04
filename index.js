@@ -1,6 +1,7 @@
-const express = require('express')
-const app = express()
-const port = process.env.PORT || 3000
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+app.use(express.static('public'));
 
 /* 
     Incase you are using mongodb atlas database uncomment below line
@@ -9,7 +10,7 @@ const port = process.env.PORT || 3000
 // mongoose.connect( mongoAtlasUri, {useNewUrlParser: true, useUnifiedTopology: true})
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World!!!!')
 })
 
 app.listen(port, () => {
